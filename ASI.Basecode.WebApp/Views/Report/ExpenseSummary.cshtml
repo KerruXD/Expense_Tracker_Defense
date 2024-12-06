@@ -1,0 +1,252 @@
+﻿@* @model ExpenseSummaryViewModel
+
+@{
+    ViewData["Title"] = "Expense Summary";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css?v=1.7" />
+</head>
+<body>
+    <div class="container">
+        <h3 class="page-title">Expense Summary</h3>
+
+        <!-- Filter Section -->
+        <div class="filters row mb-4">
+
+            <div class="filter">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date">
+            </div>
+
+            <div class="filter">
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date">
+            </div>
+            <div class="filter">
+                <label for="category-select">Select Category:</label>
+                <select id="category-select">
+                    <option value="">All Categories</option>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <option value="@category.CategoryID">@category.CategoryName</option>
+                    }
+                </select>
+            </div>
+            <div class="filter">
+            <button id="apply-filters" class="btn-apply-filters">Filter</button>
+            </div>
+        </div>
+
+        <!-- Expense Table -->
+        <table id="expense-summary-table" class="table table-bordered table-striped">
+            <thead>
+                <tr class="text-center">
+                    <th>Category</th>
+                    <th>Title</th>
+                     <th>Date</th>
+                    <th>Amount</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var expense in Model.Expenses)
+                {
+                    <tr>
+                        <td>@expense.Category.CategoryName</td>
+                        <td>@expense.Title</td>
+                        <td>@expense.Date.ToString("yyyy-MM-dd")</td>
+                        <td>@expense.Amount</td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <!-- Total Amount -->
+        <div id="total-amount" class="total-amount text-right">
+            <strong>Total Amount: </strong><span id="total-amount-value">
+                @Model.Expenses.Sum(e => e.Amount).ToString("C")
+            </span>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    // Function to apply filters and update the table
+    function applyFilters() {
+        const categoryFilter = document.getElementById("category-select").value;
+        const startDate = document.getElementById("start-date").value;
+        const endDate = document.getElementById("end-date").value;
+
+        // Get the raw data from the model
+        const rawExpenses = @Html.Raw(Json.Serialize(Model.Expenses.Select(e => new { 
+            e.ExpenseID, 
+            e.Title, 
+            e.Amount, 
+            e.Date, 
+            e.CategoryID, 
+            CategoryName = e.Category != null ? e.Category.CategoryName : "No Category" 
+        })));
+        console.log(rawExpenses); // Log to check the structure of the data
+
+        // Normalize the date to ensure proper comparisons
+        function parseDate(dateStr) {
+            const date = new Date(dateStr);
+            date.setHours(0, 0, 0, 0); // Set the time to midnight to ignore time in comparisons
+            return date;
+        }
+
+        // Filter the expenses based on the selected filters
+        const filteredExpenses = rawExpenses.filter(expense => {
+            const expenseDate = parseDate(expense.date);
+            const isCategoryMatch = categoryFilter ? parseInt(categoryFilter) === expense.categoryID : true;
+
+            // Parse start and end dates
+            const parsedStartDate = startDate ? parseDate(startDate) : null;
+            const parsedEndDate = endDate ? parseDate(endDate) : null;
+
+            // Ensure expense date is within the selected range (from start date to end date)
+            const isStartDateMatch = parsedStartDate ? expenseDate >= parsedStartDate : true;
+            const isEndDateMatch = parsedEndDate ? expenseDate <= parsedEndDate : true;
+
+            // Apply all conditions (category match, start date match, end date match)
+            return isCategoryMatch && isStartDateMatch && isEndDateMatch;
+        });
+
+        // Update table and total amount
+        const tbody = document.querySelector("#expense-summary-table tbody");
+        tbody.innerHTML = "";
+        let totalAmount = 0;
+
+        filteredExpenses.forEach(expense => {
+            const row = document.createElement("tr");
+
+            // Use the categoryName directly from the raw data
+            const categoryName = expense.CategoryName || "No Category";  // Ensure the categoryName is used
+
+            // Format the date explicitly if valid
+            const expenseDate = new Date(expense.date);
+            const formattedDate = !isNaN(expenseDate.getTime()) ? expenseDate.toLocaleDateString('en-US') : "Invalid Date";
+
+            row.innerHTML = `
+                <td>${expense.categoryName}</td> 
+                <td>${expense.title}</td>
+                <td>${formattedDate}</td>
+                <td>${expense.amount}</td>
+            `;
+            tbody.appendChild(row);
+            totalAmount += expense.amount;
+        });
+
+        // Update total amount
+        document.getElementById("total-amount-value").textContent = totalAmount.toFixed(2);
+    }
+
+    // Add event listener to apply filters button
+    document.getElementById("apply-filters").addEventListener("click", applyFilters);
+});
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
+ *@
+
+@model ExpenseSummaryViewModel
+
+@{
+    ViewData["Title"] = "Expense Summary";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css?v=1.8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="sumcontainer">
+        <div id="expense-summary">
+            @foreach (var categoryGroup in Model.Expenses.GroupBy(e => e.Category.CategoryName))
+            {
+                <div class="category-section">
+                    <div class="category-header" style="cursor: pointer;" onclick="toggleTable('@categoryGroup.Key')">
+                        <span style="font-weight: 600; font-size: 1rem;">@categoryGroup.Key</span>
+                        <span class="category-total" style="font-size: 1rem">
+                            (₱@categoryGroup.Sum(e => e.Amount).ToString("N2"))
+                        </span>
+                    </div>
+
+                    <!-- Table hidden by default -->
+                    <div class="expense-table-container" id="table-@categoryGroup.Key" style="display: none;">
+                        <table class="expense-table">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Title</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var expense in categoryGroup)
+                                {
+                                    <tr>
+                                        <td>@expense.Date.ToString("yyyy-MM-dd")</td>
+                                        <td>@expense.Title</td>
+                                        <td>₱@expense.Amount.ToString("N2")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Overall Total -->
+        <div id="overall-total">
+            <span style="font-weight: 900; font-size: 1rem;">Total Amount:</span>
+            <span style="font-weight: 500; font-size: 1rem;">
+                ₱@Model.Expenses.Sum(e => e.Amount).ToString("N2")
+            </span>
+        </div>
+    </div>
+
+    <script>
+        // Function to toggle visibility of the table
+        function toggleTable(category) {
+            var table = document.getElementById('table-' + category);
+            // Toggle the display property
+            if (table.style.display === 'none') {
+                table.style.display = 'block';
+            } else {
+                table.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+
+

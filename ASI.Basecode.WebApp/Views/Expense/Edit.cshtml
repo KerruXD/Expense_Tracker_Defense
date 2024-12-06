@@ -1,0 +1,49 @@
+﻿@model ASI.Basecode.Data.Models.Expense
+@section styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="~/css/style.css?v=1.7" />
+}
+<div class="eCat">
+    <div class="ebtn">
+        <h3>Edit Expense</h3>
+        <button type="button" style="margin-left: 15%;" class="closebtn" onclick="window.history.back();">&times;</button>
+    </div>
+
+    <form method="post" asp-action="Edit" onsubmit="return confirm('Do you wish to save changes?');">
+        <!-- Added onsubmit event -->
+        <input type="hidden" asp-for="ExpenseID" />
+        <input type="hidden" asp-for="RowVersion" />
+        
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" class="form-control" asp-for="Title" style="width:368px;" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Amount</label>
+            <input type="number" class="form-control" asp-for="Amount" min="0" step="0.01" />
+            <span asp-validation-for="Amount" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Category</label>
+            <select class="form-control" asp-for="CategoryID" asp-items="@(new SelectList(ViewBag.Categories, "CategoryID", "CategoryName", Model.CategoryID))">
+                <option value="">Select a category</option>
+            </select>
+
+            <span asp-validation-for="CategoryID" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Date</label>
+            <input type="date" class="form-control" asp-for="Date" />
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" asp-for="Description"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary" style="border-radius: 5px; width: 100px;">Update</button>
+        </div>
+    </form>
+</div>

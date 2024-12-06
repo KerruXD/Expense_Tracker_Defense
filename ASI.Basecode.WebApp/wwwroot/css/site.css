@@ -1,0 +1,471 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#footer {
+    height: 160px;
+    margin-left: 0px;
+    transition: margin-left 0.2s;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    height: auto
+}
+
+.hide-navbar {
+    display: none;
+}
+
+
+/* Initially hide the dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+    /* Style the dropdown list */
+    .dropdown ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .dropdown ul li {
+            padding: 10px;
+        }
+
+            /* Style the links in the dropdown */
+            .dropdown ul li a {
+                text-decoration: none;
+                color: #333;
+            }
+
+.dropdown-open {
+    display: block;
+    width: 140px
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.w-1000px {
+    width: 1000px;
+}
+
+.movie-index .card {
+    background-color: transparent; /* Set the card background to transparent */
+    border: none; /* Remove card border */
+    border-radius: 10px; /* Rounded corners for the entire card */
+    box-shadow: none; /* Remove any shadow for a flatter look */
+}
+.movie-item {
+    position: relative; /* Allow absolute positioning of child elements if needed */
+}
+
+.movie-details {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for details */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Spacing inside the details box */
+    margin-top: 10px; /* Space between the image and the details */
+}
+
+.card-img-top {
+    border-radius: 10px; /* Ensure the image also has rounded corners */
+    transition: transform 0.2s; /* Smooth scale effect on hover */
+    width: 100%; /* Make the image fit the width of the card */
+    height: 300px; /* Set a specific height for the image */
+    object-fit: cover; /* Cover the entire area without distorting the image */
+    display: block; /* Ensure the image is treated as a block element */
+}
+
+    .card-img-top:hover {
+        transform: scale(1.05); /* Slightly enlarge the image on hover */
+    }
+.col-md-3 {
+    padding-left: 1px; /* Reduce left padding */
+    padding-right: 1px; /* Reduce right padding */
+}
+
+/* Default icon color (day mode) */
+i.fa-solid {
+    color: #000; /* Black color for icons in normal mode */
+}
+
+/* Night mode icon color */
+body.night-mode i.fa-solid {
+    color: #FFF; /* White color for icons in night mode */
+}
+
+/* Icon color on hover (optional) */
+i.fa-solid:hover {
+    color: #66C2A3; /* Light teal color on hover for better interaction */
+}
+
+/* Icon color on active (optional) */
+i.fa-solid:active {
+    color: #FFB3B3; /* Light red color when clicked */
+}
+
+
+
+/*CSS For Night Mode Toggle Starting Here*/
+
+body.night-mode {
+    background-color: #121212; /* Dark background color */
+    color: white; /* Light text color */
+}
+
+/* Night mode for sidebar */
+body.night-mode .sidebar {
+    background-color: #333; /* Dark background for sidebar */
+    color: white; /* White text for the sidebar */
+}
+
+body.night-mode .sidebar-btn {
+    background-color: #444; /* Darker background for buttons */
+    color: white; /* White text color for buttons */
+    border: 1px solid #555; /* Dark border for buttons */
+    margin-bottom: 10px; /*Add some spacing between buttons */
+}
+
+/* Night mode for sidebar icons */
+body.night-mode .sidebar-btn i {
+    color: white; /* White color for icons */
+}
+
+body.night-mode .content-area {
+    color: white; /* White text for content */
+}
+
+/* Ensure form controls inside modals are styled for night mode */
+body.night-mode .modal label {
+    color: white; /* White text for labels inside modals */
+}
+
+body.night-mode .modal,
+body.night-mode .modal-content {
+    background-color: #333; /* Dark background for modal */
+    color: white; /* Light text in modal */
+}
+
+body.night-mode .form-control,
+body.night-mode .modal .form-control {
+    background-color: #555; /* Darker background for form elements inside modal */
+    color: white; /* Light text in form elements */
+}
+
+body.night-mode .navbar,
+body.night-mode .card,
+body.night-mode .alert {
+    background-color: #333; /* Darker background for elements */
+    color: white;
+}
+
+body.night-mode button,
+body.night-mode input,
+body.night-mode .form-control {
+    background-color: #555; /* Darker background for form elements */
+    color: white; /* Light text in form elements */
+}
+
+body.night-mode .btn-dark {
+    background-color: #666;
+    color: white;
+}
+
+/* Night mode for tables */
+body.night-mode table {
+    background-color: #333; /* Dark background for table */
+    color: white; /* White text color for table */
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%; /* Make the table span the full width */
+}
+
+/* Night mode for table headers */
+body.night-mode th {
+    background-color: #444; /* Dark background for table headers */
+    color: white; /* White text color for headers */
+    padding: 8px; /* Padding for header cells */
+    text-align: left; /* Left-align text in header */
+}
+
+/* Night mode for table data cells */
+body.night-mode td {
+    background-color: #333; /* Dark background for table cells */
+    color: white; /* White text color for cells */
+    padding: 8px; /* Padding for data cells */
+    border-top: 1px solid #555; /* Border for table rows */
+}
+
+/* Night mode for table rows (alternating row colors) */
+body.night-mode tr:nth-child(even) {
+    background-color: #444; /* Slightly lighter background for even rows */
+}
+
+/* Night mode for table row hover effect */
+body.night-mode tr:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+    /* Night mode for container-fluid */
+body.night-mode .container-fluid {
+    background-color: #333;  /* Dark background for the container */
+    color: white;            /* White text color */
+    padding: 15px;           /* Add some padding for spacing */
+    border-radius: 5px;      /* Optional: rounded corners for the container */
+}
+
+/* Night mode for content inside .container-fluid */
+body.night-mode .container-fluid h1,
+body.night-mode .container-fluid h2,
+body.night-mode .container-fluid h3,
+body.night-mode .container-fluid h4,
+body.night-mode .container-fluid h5,
+body.night-mode .container-fluid h6 {
+    color: white;            /* White color for all headings */
+}
+
+/* Night mode for buttons inside .container-fluid */
+body.night-mode .container-fluid .btn {
+    background-color: #444;  /* Dark button background */
+    color: white;            /* White button text */
+    border: none;            /* Remove button border */
+}
+
+body.night-mode .container-fluid .btn:hover {
+    background-color: #555;  /* Lighter background when hovering */
+}
+
+/* Night mode for links inside .container-fluid */
+body.night-mode .container-fluid a {
+    color: #0D7C66;           /* Use a different link color (you can change it) */
+    text-decoration: none;    /* Remove underline from links */
+}
+
+body.night-mode .container-fluid a:hover {
+    color: #80C9B4;           /* Lighter color on hover */
+}
+
+/* Night mode for container-fluid */
+body.night-mode .container-fluid {
+    background-color: #333; /* Dark background for the container */
+    color: white; /* White text color */
+    padding: 15px; /* Add some padding for spacing */
+    border-radius: 5px; /* Optional: rounded corners for the container */
+}
+
+/* Night mode for content inside .container-fluid */
+body.night-mode .container-fluid h1,
+body.night-mode .container-fluid h2,
+body.night-mode .container-fluid h3,
+body.night-mode .container-fluid h4,
+body.night-mode .container-fluid h5,
+body.night-mode .container-fluid h6 {
+    color: white; /* White color for all headings */
+}
+
+/* Night mode for buttons inside .container-fluid */
+body.night-mode .container-fluid .btn {
+    background-color: #444; /* Dark button background */
+    color: white; /* White button text */
+    border: none; /* Remove button border */
+}
+
+body.night-mode .container-fluid .btn:hover {
+    background-color: #555; /* Lighter background when hovering */
+}
+
+/* Night mode for links inside .container-fluid */
+body.night-mode .container-fluid a {
+    color: #0D7C66; /* Use a different link color (you can change it) */
+    text-decoration: none; /* Remove underline from links */
+}
+
+body.night-mode .container-fluid a:hover {
+    color: #80C9B4; /* Lighter color on hover */
+}
+
+/* Night mode for categories class */
+body.night-mode .categories {
+    background-color: #333; /* Dark background for categories */
+    color: white; /* White text color */
+    padding: 15px; /* Padding to ensure some space around content */
+    border-radius: 5px; /* Optional: rounded corners for categories container */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for emphasis */
+}
+
+/* Night mode for category items inside the .categories */
+body.night-mode .categories .category-item {
+    background-color: #444; /* Dark background for each category item */
+    color: white; /* White text for each category */
+    padding: 10px; /* Padding for the category items */
+    margin-bottom: 10px; /* Space between category items */
+    border-radius: 5px; /* Rounded corners for category items */
+    border: 1px solid #555; /* Light border for separation */
+}
+
+/* Night mode for category items on hover */
+body.night-mode .categories .category-item:hover {
+    background-color: #555; /* Lighter background on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Night mode for links inside the categories section */
+body.night-mode .categories a {
+    color: #80C9B4; /* Light teal color for links in categories */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Night mode for links on hover inside categories */
+body.night-mode .categories a:hover {
+    color: #FFFFFF; /* Change link color to white on hover */
+    text-decoration: underline; /* Optional: underline links on hover */
+}
+
+/* Night mode for eCat class */
+body.night-mode .eCat {
+    background-color: #333; /* Dark background for eCat */
+    color: white; /* White text color */
+    padding: 15px; /* Padding to ensure some space around the content */
+    border-radius: 5px; /* Rounded corners for eCat container */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for emphasis */
+}
+
+/* Night mode for items inside the eCat class */
+body.night-mode .eCat .eCat-item {
+    background-color: #444; /* Dark background for each eCat item */
+    color: white; /* White text for each item */
+    padding: 10px; /* Padding for the items */
+    margin-bottom: 10px; /* Space between items */
+    border-radius: 5px; /* Rounded corners for each item */
+    border: 1px solid #555; /* Light border for separation */
+}
+
+/* Night mode for items in eCat on hover */
+body.night-mode .eCat .eCat-item:hover {
+    background-color: #555; /* Lighter background on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Night mode for links inside eCat */
+body.night-mode .eCat a {
+    color: #80C9B4; /* Light teal color for links inside eCat */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Night mode for links on hover inside eCat */
+body.night-mode .eCat a:hover {
+    color: #FFFFFF; /* Change link color to white on hover */
+    text-decoration: underline; /* Optional: underline links on hover */
+}
+
+/* Night mode for rcontainer class */
+body.night-mode .rcontainer {
+    background-color: #2c2f34; /* Dark background for rcontainer */
+    color: white; /* White text color */
+    padding: 20px; /* Padding for spacing inside rcontainer */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Optional: subtle shadow for emphasis */
+}
+
+/* Night mode for child elements inside rcontainer */
+body.night-mode .rcontainer .rcontainer-item {
+    background-color: #3a3f45; /* Dark background for each item inside rcontainer */
+    color: white; /* White text color for each item */
+    padding: 15px; /* Padding for individual items */
+    margin-bottom: 15px; /* Space between items */
+    border-radius: 5px; /* Rounded corners for items */
+    border: 1px solid #555; /* Border for separating items */
+}
+
+/* Night mode for links inside rcontainer */
+body.night-mode .rcontainer a {
+    color: #66C2A3; /* Light teal color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Night mode for links on hover inside rcontainer */
+body.night-mode .rcontainer a:hover {
+    color: white; /* Change link color to white on hover */
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Night mode for buttons inside rcontainer */
+body.night-mode .rcontainer button {
+    background-color: #444; /* Dark background for buttons */
+    color: white; /* White text color for buttons */
+    border: 1px solid #666; /* Light border for buttons */
+}
+
+/* Night mode for button hover inside rcontainer */
+body.night-mode .rcontainer button:hover {
+    background-color: #555; /* Slightly lighter background for hover */
+    border-color: #888; /* Lighter border on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+body.night-mode .dropdown {
+    background-color: #2c2f34; /* Dark background for dropdown */
+    color: white; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for emphasis */
+}
+
+/* Night mode for <li> elements */
+body.night-mode li {
+    color: white; /* White text color for list items */
+    background-color: transparent; /* Transparent background by default */
+    padding: 8px 15px; /* Padding around list items */
+    border-radius: 5px; /* Rounded corners for list items */
+}
+
+/* Night mode for <li> elements on hover */
+body.night-mode li:hover {
+    background-color: #555; /* Darker background on hover */
+    color: white; /* Ensure text remains white on hover */
+}
+
+/* Night mode for visited <a> elements */
+body.night-mode a:visited {
+    color: #B1C8B2; /* Lighter teal color for visited links */
+}
+
+
+
+
+
+

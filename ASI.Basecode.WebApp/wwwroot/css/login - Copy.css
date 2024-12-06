@@ -1,0 +1,44 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #0D7C66; /* Red */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #0D7C66, #0D7C66); /* Red, Black */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #0D7C66, #0D7C66); /* Red, Black */
+}
+
+/* For login button */
+.login-btn {
+    width: 180px;
+    background-color: #0D7C66; 
+}
+
+/* For register link */
+a.btn {
+    color: #007bff; 
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+.register-box {
+    width: 600px;
+}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:focus:active {
+    background-color: #0b5b4e; /* Same color as hover */
+    box-shadow: none; /* Remove shadow */
+    outline: none; /* Remove blue outline */
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}

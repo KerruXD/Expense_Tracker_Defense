@@ -1,0 +1,15 @@
+﻿@model ASI.Basecode.Data.Models.Category
+
+<div class="pt-5">
+    <form method="post" asp-action="Create">
+        <div class="form-group" style="margin-top: -10%;">
+            <label>Category Name</label>
+            <input type="text" class="form-control" asp-for="CategoryName" placeholder="Enter Category Name" />
+            <span asp-validation-for="CategoryName" class="text-danger"></span>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary" style="background-color: #0D7C66; width:250px; border-radius: 20px;">Submit</button>
+        </div>
+        
+    </form>
+</div>

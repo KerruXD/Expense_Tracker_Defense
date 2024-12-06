@@ -1,0 +1,174 @@
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CopyComplete
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Users\Predator Neo\Documents\Jumpstart\ASIBasecode\emerge_2024\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CopyComplete
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Repository\ASIBaseCode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CopyComplete
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Base.22E0E64E.Up2Date
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Users\pt504\Desktop\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Base.22E0E64E.Up2Date
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\Users\Loryn\Downloads\ASIBasecode\ASIBasecode\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.sourcelink.json
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Base.22E0E64E.Up2Date
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+C:\IT-ElASI 3\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.sourcelink.json
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Base.22E0E64E.Up2Date
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\test\new\original\ASIBasecode(Settings)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.sourcelink.json
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Base.22E0E64E.Up2Date
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.sourcelink.json
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Base.22E0E64E.Up2Date
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\test\new\original\ASIBasecode(Fix)\ASIBasecode - Copy\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Base.22E0E64E.Up2Date
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\test\new\original\ASIBasecode(Fix)\test\Expense_ForgotPassword-main\Expense_ForgotPassword-main\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll

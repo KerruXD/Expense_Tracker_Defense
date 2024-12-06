@@ -1,0 +1,112 @@
+﻿@{
+    ViewData["Title"] = "Reports";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css?v=1.6" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="mainrep">
+        <h3>Report & Analysis</h3>
+
+        <!-- Breadcrumbs -->
+        <div id="breadcrumbs" class="breadcrumbs">
+            <a href="@Url.Action("Index", "Home")">Reports</a> <!-- Link to Reports Page -->
+        </div>
+
+        <div class="rcontainer">
+            <!-- Button Row -->
+            <div class="button-container text-center">
+                <!-- Expense Summary Button (AJAX request) -->
+                <button class="report-btn" style="background-color:#24C7EC" id="btn-exp-summary">
+                    <i class="fas fa-chart-pie fa-5x"></i>
+                    <span class="report-text">Expense Summary</span>
+                </button>
+
+                <!-- Generate Report Button (AJAX request) -->
+                <button class="report-btn" style="background-color:#246AEC" id="btn-generate-report">
+                    <i class="fas fa-file-alt fa-5x"></i>
+                    <span class="report-text">Generate Report</span>
+                </button>
+
+                <!-- Expense Trends Button (AJAX request) -->
+                <button class="report-btn" style="background-color:#00BB32" id="btn-exp-trends">
+                    <i class="fas fa-arrow-up fa-5x"></i>
+                    <span class="report-text">Expense Trends</span>
+                </button>
+            </div>
+
+            <!-- Placeholder for report content -->
+
+        </div>
+        <div id="report-content" class="report-content text-center" style="margin-top:-8%;">
+            <p>Select an option to view the report details.</p>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Update Breadcrumb
+            function updateBreadcrumb(pageName) {
+                $('#breadcrumbs').html('<a href="@Url.Action("Index", "Home")">Reports</a> > ' + pageName);
+            }
+
+            // Expense Summary Button Click
+            $('#btn-exp-summary').click(function () {
+                $('.rcontainer').hide();
+                updateBreadcrumb('Expense Summary');
+                $.ajax({
+                    url: '@Url.Action("ExpenseSummary", "Report")',
+                    type: 'GET',
+                    success: function (response) {
+                        $('#report-content').html(response); // Display the response in the report content section
+                    },
+                    error: function () {
+                        $('#report-content').html('<p>Error loading data.</p>');
+                    }
+                });
+            });
+
+            // Expense Trends Button Click
+            $('#btn-exp-trends').click(function () {
+                $('.rcontainer').hide();
+                updateBreadcrumb('Expense Trends');
+                $.ajax({
+                    url: '@Url.Action("ExpenseTrends", "Report")',
+                    type: 'GET',
+                    success: function (response) {
+                        $('#report-content').html(response); // Display the response in the report content section
+                    },
+                    error: function () {
+                        $('#report-content').html('<p>Error loading data.</p>');
+                    }
+                });
+            });
+
+            // Generate Report Button Click
+            $('#btn-generate-report').click(function () {
+                $('.rcontainer').hide();
+                updateBreadcrumb('Generate Report');
+                $.ajax({
+                    url: '@Url.Action("GenerateReport", "Report")',
+                    type: 'GET',
+                    success: function (response) {
+                        $('#report-content').html(response); 
+                        initializeGenerateReportScripts();
+                    },
+                    error: function () {
+                        $('#report-content').html('<p>Error loading data. kay ambot man</p>');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

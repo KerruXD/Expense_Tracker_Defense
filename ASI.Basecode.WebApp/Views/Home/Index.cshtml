@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="~/css/style.css?v=1.4" />
+}
+
+<div class="scontainer">
+    <div class="sidebar" style="position: fixed; margin-top:5%;">
+        <button class="sidebar-btn" data-url="@Url.Action("Index", "Expense")">
+            <i class="fas fa-wallet"></i> Expense Management
+        </button>
+
+        <button class="sidebar-btn" data-url="@Url.Action("Index", "Category")">
+            <i class="fas fa-layer-group"></i> Category Management
+        </button>
+        <button class="sidebar-btn" data-url="@Url.Action("Index", "Report")">
+            <i class="fas fa-chart-line"></i> Reports & Analysis
+        </button>
+    </div>
+    <div style="margin-left: 95%; ">
+        <div class="content-area" id="content-area" style="margin-top:6.5%">
+        
+    </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        const sidebarButtons = document.querySelectorAll('.sidebar-btn');
+
+        // When a sidebar button is clicked
+        sidebarButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                // Remove active class from all buttons and add to the clicked button
+                sidebarButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                // Get the URL from the data-url attribute
+                const url = button.getAttribute('data-url');
+
+                // Store the active URL in localStorage
+                localStorage.setItem('activeSidebarUrl', url);
+
+                // Load content into #content-area using AJAX
+                if (url) {
+                    $.ajax({
+                        url: url, // This URL will call the Index action
+                        type: 'GET',
+                        success: function (data) {
+                            $('#content-area').html(data); // Inject only the table into #content-area
+                        },
+                        error: function () {
+                            $('#content-area').html('<p>Error loading content.</p>');
+                        }
+                    });
+                }
+            });
+        });
+
+        // Load the default content (Expense Management)
+        $(document).ready(function () {
+            // Check if the user is logged in (adjust this based on your session logic)
+            const isLoggedIn = @User.Identity.IsAuthenticated.ToString().ToLower(); // Example for ASP.NET Core
+
+            if (!isLoggedIn) {
+                // If logged out, clear the active URL from localStorage
+                localStorage.removeItem('activeSidebarUrl');
+            }
+
+            // Retrieve the active URL from localStorage
+            const activeUrl = localStorage.getItem('activeSidebarUrl');
+            
+            if (activeUrl) {
+                // Find the button with the corresponding URL and mark it as active
+                const activeButton = Array.from(sidebarButtons).find(button => button.getAttribute('data-url') === activeUrl);
+                if (activeButton) {
+                    // Remove active class from all buttons
+                    sidebarButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to the correct button
+                    activeButton.classList.add('active');
+
+                    // Load the content associated with the active URL
+                    $.ajax({
+                        url: activeUrl,
+                        type: 'GET',
+                        success: function (data) {
+                            $('#content-area').html(data); // Inject only the table into #content-area
+                        },
+                        error: function () {
+                            $('#content-area').html('<p>Error loading content.</p>');
+                        }
+                    });
+                }
+            } else {
+                // If no active URL is stored, load the default content (Expense Management)
+                const defaultButton = document.querySelector('.sidebar-btn[data-url="@Url.Action("Index", "Expense")"]');
+                if (defaultButton) {
+                    // Remove active class from all buttons
+                    sidebarButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to the default button (Expense Management)
+                    defaultButton.classList.add('active');
+
+                    // Load the content associated with the default button (Expense Management)
+                    $.ajax({
+                        url: defaultButton.getAttribute('data-url'),
+                        type: 'GET',
+                        success: function (data) {
+                            $('#content-area').html(data); // Inject only the table into #content-area
+                        },
+                        error: function () {
+                            $('#content-area').html('<p>Error loading content.</p>');
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+}

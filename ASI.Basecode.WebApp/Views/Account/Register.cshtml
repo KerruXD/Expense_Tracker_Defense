@@ -1,0 +1,77 @@
+﻿@using ASI.Basecode.Services.ServiceModels
+@model UserViewModel
+@{
+    ViewBag.LoginView = true;
+    ViewData["Title"] = "Register Page";
+}
+
+@section styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="~/css/style.css?v =1.1" />
+   
+}
+
+<div class="container d-flex justify-content-center" style="margin-top: 1px">
+    <div class="col-lg-6">
+        <div class="card rounded-3 text-black p-5 shadow">
+            <div class="text-center mb-4">
+                <h5 style="color:#0D7C66; font-family: 'Inter', sans-serif; font-weight: bold; font-size: 1.8rem">SIGN UP</h5>
+            </div>
+
+            <form method="post" action="/Account/Register">
+                <div class="row">
+                    <!-- Full Name and Password Columns -->
+                    <div class="col-md-6 mb-4">
+                        <div class="input-group rounded-pill">
+                            <span class="input-group-text bg-white rounded-start-pill"><i class="fas fa-user"></i></span>                            <input type="text" class="form-control rounded-end-pill" asp-for="FullName" placeholder="Full name" />               
+                        </div>
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="input-group rounded-pill">
+                            <span class="input-group-text bg-white rounded-start-pill"><i class="fas fa-lock"></i></span>
+                            <input type="password" class="form-control rounded-end-pill" asp-for="Password" placeholder="Password" />
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <!-- Email and Confirm Password Columns -->
+                    <div class="col-md-6 mb-4">
+                        <div class="input-group rounded-pill">
+                            <span class="input-group-text bg-white rounded-start-pill"><i class="fas fa-envelope"></i></span>
+                            <input type="text" class="form-control rounded-end-pill" asp-for="Email" placeholder="Email" />
+                        </div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="input-group rounded-pill">
+                            <span class="input-group-text bg-white rounded-start-pill"><i class="fas fa-lock"></i></span>
+                            <input type="password" class="form-control rounded-end-pill" asp-for="ConfirmPassword" placeholder="Confirm Password" />
+                        </div>
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="text-center mb-3">
+                    <button class="btn btn-custom w-50 rounded-pill" type="submit">Register</button>
+                </div>
+
+                <div class="text-center">
+                    <hr>
+                    <p>Already Have An Account? <a href="/Account/Login">Login Here</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        // Check for error message and display Toastr notification
+        var errorMessage = '@TempData["ErrorMessage"]';
+        if (errorMessage) {
+            toastr.error(errorMessage);
+        }
+    </script>
+}
